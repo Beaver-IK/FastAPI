@@ -1,0 +1,8 @@
+[flake8]
+exclude = __init__.py,venv,alembic,docker,.git,__pycache__
+max-line-length = 79
+ignore = 
+    W503,
+    F811,
+    D100, D101, D102, D104, D105, D106
+    N806
